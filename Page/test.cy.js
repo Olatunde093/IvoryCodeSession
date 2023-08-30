@@ -1,7 +1,7 @@
 class test{
 
     visit(){
-        return cy.visit("https://qa.d1ainun5cjrnni.amplifyapp.com/")
+        return cy.visit("https://qa.d1ainun5cjrnni.amplifyapp.com/register")
     }
     signUp(){
         return cy.get("p > .cursor-pointer.text-\[\#02084B\]")

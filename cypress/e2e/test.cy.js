@@ -19,7 +19,7 @@ describe("check the sign up button",()=>{
     const business = faker.company.name()
 
 
-        cy.get("[class='text-sm lg\:text-base text-\[\#02084B80\]'] [class]").click()
+    
         tests.Firtsname().type(firstname)
         tests.Lastname().type(lastname)
         tests.Email().type(email)
