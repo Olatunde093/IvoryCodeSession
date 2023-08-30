@@ -9,6 +9,10 @@
   "author": "Muiz Olatunde",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.17.4"
+    "cypress": "^12.17.4",
+    "faker": "^6.6.6"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2"
   }
 }
